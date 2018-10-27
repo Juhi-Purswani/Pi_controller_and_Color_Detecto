@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="com.example.android.picontroller.MainActivity">
 
-
+<!--Edittext field where IP address will be taken-->
     <EditText
         android:id="@+id/ipAdress"
         android:layout_width="match_parent"
