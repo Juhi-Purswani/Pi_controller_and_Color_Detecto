@@ -16,7 +16,7 @@ def setup():
     GPIO.setup(LM2,GPIO.OUT)
     GPIO.setup(RM1,GPIO.OUT)
     GPIO.setup(RM2,GPIO.OUT)
-    print("setup")
+    print("setting up")
 
 
 def ServoForward():
@@ -45,7 +45,7 @@ def ServoLeft():
     GPIO.output(LM2,False)
     GPIO.output(RM1,True)
     GPIO.output(RM2,False)
-    print("Left")
+    print("left")
 
 def close():
     print("close")
